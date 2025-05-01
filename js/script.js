@@ -5,11 +5,12 @@
       margin: 10,
       nav: true,
       items: 3,
-      autoplay: false,
-      autoplayTimeout: 2000,
-      autoplayHoverPause: true,
+      autoplay: true,
+      autoplayTimeout: 5000,
       dots: true,
       dotData: true,
+      smartSpeed: 1000,
+      rtl: true,
       responsive: {
         0: {
           items: 1 
