@@ -1,0 +1,82 @@
+.fit-content{
+    width: fit-content;
+}
+.owl-dots {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+.owl-dot{
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    border-radius: 50%;
+    background: #3a1616;
+    border: 2px solid transparent;
+   
+    
+  }
+  
+  .owl-carousel button.owl-dot.active {
+    background: teal !important;
+    border-color:teal !important;
+  }
+  .owl-carousel button.owl-dot{
+    background-color: white !important;
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 2px solid teal !important;
+   
+    
+  }
+  .owl-carousel{
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 16px;
+    h3{
+        color:teal;
+        margin:5px 0px 15px 0px;
+        background-color: rgba(10, 44, 63, 0.116);
+        border-radius: 10px;
+        padding:5px;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 500;
+        color:#404040;
+    }
+  }
+  .owl-carousel .owl-nav button.owl-prev,
+  .owl-next{
+    margin:0px 10px;
+    transform: scale(2);
+  }
+
+  .owl-carousel div{
+    padding:10px 0px 0px 0px;
+    border-radius: 10px;
+   
+    .content{
+        height:400px;
+        padding:5px;
+        box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
+         border-radius: 12px;
+         background-color: #ffffffcc !important;
+         padding: 20px;
+         margin: 15px 5px;
+    
+    }
+   
+  }
+  .head h2{
+    color:teal;
+    font-size: 35px;
+    font-weight: 700;
+
+  }
+  .owl-carousel.owl-drag .owl-item{
+    width:fit-content;
+    height: fit-content;
+  }
